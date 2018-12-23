@@ -15,6 +15,6 @@ class Onebox::Engine::PlaysTVOnebox
 	end
 	
 	def to_html
-		"<div id=\"aprt#{id}\"><script type=\"text/JavaScript\" src=\"https://www.aparat.com/embed/#{id}?data[rnddiv]=aprt#{id}&data[responsive]=yes\"></script></div>"
+		"<iframe class=\"embed-responsive-item\" data-src=\"https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame\" height=\"360\" width=\"640\" allowfullscreen=\"true\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\" src=\"https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame\"></iframe>"
 	end
 end
