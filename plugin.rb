@@ -15,6 +15,18 @@ class Onebox::Engine::PlaysTVOnebox
 	end
 	
 	def to_html
-		"<iframe class=\"embed-responsive-item\" data-src=\"https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame\" height=\"360\" width=\"640\" allowfullscreen=\"true\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\" src=\"https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame\"></iframe>"
+		%{
+		  <aside class="onebox aparatvideo">
+		    <header class="source">
+		      <a href="https://www.aparat.com/v/#{id}" target="_blank" rel="nofollow noopener">aparat.com</a>
+		    </header>
+		    <article class="onebox-body">
+		      <iframe class="embed-responsive-item" data-src="https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame" height="360" width="640" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame"></iframe>
+		    </article>
+		    <div class="onebox-metadata">
+		    </div>
+		    <div style="clear: both"></div>
+		  </aside>
+		}
 	end
-end
+end 
