@@ -4,7 +4,7 @@
 # authors: M H
 # url: https://github.com/mhosseinab/discourse-aparat-onebox
 
-class Onebox::Engine::PlaysTVOnebox
+class Onebox::Engine::AparatOnebox
 	include Onebox::Engine
 
 	REGEX = /^https?:\/\/www.aparat.com\/v\/(\w+)/
