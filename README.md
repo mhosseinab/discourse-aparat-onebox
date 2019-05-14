@@ -37,4 +37,4 @@ rake posts:rebake
 
 ## License
 
-The Discourse Plays.tv Onebox plugin is released under the [MIT License](LICENSE).
+The Discourse Aparat Onebox plugin is released under the [MIT License](LICENSE).
