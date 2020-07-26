@@ -17,7 +17,7 @@ Onebox = Onebox
     0
   end
   
-  REGEX = /^https?\:\/\/www\.aparat\.com\/v\/\/(\w*)/
+  REGEX = /^https?\:\/\/www\.aparat\.com\/v\/(\w*)/
   matches_regexp REGEX
 
   def id
