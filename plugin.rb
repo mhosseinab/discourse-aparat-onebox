@@ -2,7 +2,7 @@
 # encoding: utf-8
 # name: Discourse Aparat Onebox
 # about: Adds support for embedding Aparat.com media within Discourse.
-# version: 0.1
+# version: 0.2.0
 # authors: M H
 # url: https://github.com/mhosseinab/discourse-aparat-onebox
 
