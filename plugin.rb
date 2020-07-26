@@ -2,7 +2,7 @@
 # encoding: utf-8
 # name: Discourse Aparat Onebox
 # about: Adds support for embedding Aparat.com media within Discourse.
-# version: 0.2.0
+# version: 0.2.1
 # authors: M H
 # url: https://github.com/mhosseinab/discourse-aparat-onebox
 
@@ -29,7 +29,9 @@ Onebox = Onebox
             <a href="https://www.aparat.com/v/#{id}" target="_blank" rel="noopener">https://www.aparat.com/v/#{id}</a>
           </header>
           <article class="onebox-body">
-            <div id="#{id}"><script type="text/JavaScript" src="https://www.aparat.com/embed/#{id}?data[rnddiv]=#{id}&data[responsive]=yes"></script></div>
+            <div class="embed-responsive embed-responsive-#{id}">
+              <iframe class="embed-responsive-item" data-src="https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="https://www.aparat.com/video/video/embed/videohash/#{id}/vt/frame" width="640" height="360"></iframe>
+            </div>
           </article>
           <div class="onebox-metadata">
           </div>
