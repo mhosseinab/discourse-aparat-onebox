@@ -6,8 +6,6 @@
 # authors: M H
 # url: https://github.com/mhosseinab/discourse-aparat-onebox
 
-require 'net/http'
-
 Onebox = Onebox
 
   class Onebox::Engine::AparatOnebox
