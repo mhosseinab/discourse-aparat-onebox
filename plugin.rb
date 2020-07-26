@@ -24,7 +24,7 @@ Onebox = Onebox
   
   def to_html
     return %{
-        <aside class="onebox video-onebox aparat-onebox">
+        <aside class="onebox aparat-onebox">
           <header class="source">
             <a href="https://www.aparat.com/v/#{id}" target="_blank" rel="noopener">https://www.aparat.com/v/#{id}</a>
           </header>
